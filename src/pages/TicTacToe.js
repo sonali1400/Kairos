@@ -32,7 +32,7 @@ export default function TicTacToe() {
             <Board squares={board} onClick={handleClick} />
             <div style={style}>
                 <p className="brown-text">
-                    {winner ? "Winner: " + winner : draw ? "draw" : "Next Player: " + (xIsNext ? "X" : "O")}
+                    {winner ? <h1 className="title">Winner:  {winner} </h1> : draw ? "draw" : "Next Player: " + (xIsNext ? "X" : "O")}
                 </p>
             </div>
         </div>

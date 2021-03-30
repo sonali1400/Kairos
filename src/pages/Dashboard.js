@@ -12,21 +12,25 @@ const Dashboard = () => {
       <p className="brown-text">
         {DASHBOARD_TITLE}
       </p>
-      <div className="task-wrap">
+      <div className="task-wrap border">
         <p className="text-blue">{TODO_DESCRIPTION}</p>
-        <Button href="todo" color="primary"> {CHECK_TEXT}{TODO_TITLE}</Button>
+        <Button href="todo" variant="contained" color="primary"> {CHECK_TEXT}{TODO_TITLE}</Button>
       </div>
-      <div className="task-wrap">
+      <div className="task-wrap border">
         <p className="text-blue">{SNAPSEARCH_DESCRIPTION}</p>
-        <Button href="snap-search" color="primary">{CHECK_TEXT}{SNAPSEARCH_TITLE}</Button>
+        <Button href="snap-search" variant="contained" color="primary">{CHECK_TEXT}{SNAPSEARCH_TITLE}</Button>
       </div>
-      <div className="task-wrap">
+      <div className="task-wrap border">
         <p className="text-blue">{TICTACTOE_DESCRIPTION}</p>
-        <Button href="snap-search" color="primary">{CHECK_TEXT}{TICTACTOE_TITLE}</Button>
+        <Button href="tic-tac-toe" variant="contained" color="primary">{CHECK_TEXT}{TICTACTOE_TITLE}</Button>
       </div>
-      {/* <div className="task-wrap">
+      <div className="task-wrap border">
+        <p className="text-blue">QuizBee</p>
+        <Button href="quiz-bee" variant="contained" color="primary">{CHECK_TEXT}Quiz</Button>
+      </div>
+      {/* <div className="task-wrap border">
         <p className="text-blue">{FACIAL_RECOGNITION_DESCRIPTION}</p>
-        <Button href="snap-search" color="primary">{CHECK_TEXT}{FACIAL_RECOGNITION}</Button>
+        <Button href="snap-search" variant="contained" color="primary">{CHECK_TEXT}{FACIAL_RECOGNITION}</Button>
       </div> */}
     </div>
   );

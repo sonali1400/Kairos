@@ -6,6 +6,7 @@ import Dashboard from '../pages/Dashboard';
 import Todo from '../pages/Todo';
 import Navbar from '../Components/Navbar/Navbar';
 import FaceRecognition from '../pages/FaceRecognition';
+import QuizBee from '../pages/QuizBee';
 
 function Wrapper() {
   return (
@@ -18,6 +19,7 @@ function Wrapper() {
           <Route path="/snap-search" component={SnapSearch} />
           <Route path="/tic-tac-toe" component={TicTacToe} />
           <Route path="/face-recognition" component={FaceRecognition} />
+          <Route path="/quiz-bee" component={QuizBee} />
         </Switch>
       </div>
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import { RiHome8Line } from "react-icons/ri";
 import { VscSearchStop } from "react-icons/vsc";
-import { GiTicTacToe } from "react-icons/gi";
+import { GiTicTacToe, GiBeehive } from "react-icons/gi";
 import { FcTodoList } from "react-icons/fc";
 import { CgEditUnmask } from "react-icons/cg";
 
@@ -28,6 +28,12 @@ export const SidebarData = [
     title: 'TicTacToe',
     path: '/tic-tac-toe',
     icon: <GiTicTacToe />,
+    class: 'nav-text'
+  },
+  {
+    title: 'QuizBee',
+    path: '/quiz-bee',
+    icon: <GiBeehive />,
     class: 'nav-text'
   },
   {
